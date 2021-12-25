@@ -1,0 +1,10 @@
+# 数据库连接
+mariadb:
+  url: 'jdbc:mysql://localhost:3308/foodshop?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true'
+  password: '{cipher}71b9cad5095db539907e2ae525d19c5532f691e9ecff90d7d8a2b75d500cb4d7'
+  
+# 功能开关 - 开启/关闭注册功能
+userservice:
+  registration:
+    disabled: true
+  
